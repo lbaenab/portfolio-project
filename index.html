@@ -26,15 +26,38 @@
       src="https://kit.fontawesome.com/8588bfe436.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Lina is a front-end developer based in Houston, Texas. While Lina is just starting her developer career, she is very passionate and eager to learn new thing!"
+    />
+    <title>Front-end developer - Lina Baena</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="logo"
+          />
+        </a>
+        <ul>
+          <li class="active"><a href="/" title="Homepage"> Home </a></li>
+          <li><a href="/about.html" title="About Lina"> About </a></li>
+          <li><a href="/work.html" title="Lina's work"> Work </a></li>
+          <li><a href="/contact.html" title="Contact Lina"> Contact </a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="hero">
       <p>👋🏼 Hello, I am</p>
       <h1>Lina Baena</h1>
       <h2 class="mb-5">Front-end developer based in Houston</h2>
       <div>
-        <a href="#" class="btn btn-branding"> Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me">
+          Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -43,7 +66,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid"
+            alt="yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -54,7 +81,9 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -68,16 +97,26 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="weather project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="dictionary app preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -88,10 +127,56 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline"> Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more</a
+            >
           </div>
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5">
+          <a href="mailto:lina.baena92@hotmail.com" class="email-link"
+            >lina.baena92@hotmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mt-5">
+          <a
+            href="https://www.instagram.com/lina.baena92"
+            target="_blank"
+            title="Instagram profile"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://wwww.github.io/lbaenab"
+            target="_blank"
+            title="Github profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https//www.twitter.com/lina.b"
+            target="_blank"
+            title="Twitter profile"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          👉🏼 This project was coded by SheCodes, and it is open-sourced
+        </p>
+      </footer>
     </div>
   </body>
 </html>
